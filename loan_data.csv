@@ -1,0 +1,10 @@
+﻿Income,Age,employment,family_size,earning_members,expenses,loan_amount,open_loan_count,open_loan_amount,home_owner,Loan_purpose,credit_rating,granted,comment
+1.00E+05,2.50E+01,service,3,1,120000,2.00E+06,0.00E+00,0.00E+00,FALSE,home,good ,TRUE,
+2.00E+05,3.50E+01,self_employed,5,1,240000,2.00E+06,3.00E+00,5.10E+06,TRUE,business,good ,FALSE,3 loans outstanding
+10000000,41,self_employed,1,1,1000000,5000000,0,0,TRUE,business,poor,FALSE,rejected due to poor credit rating
+100000,65,not_employed,2,1,50000,200000,0,0,TRUE,personal,good ,FALSE,due to age 
+500000,29,not_employed,2,0,50000,3000000,0,0,FALSE,personal,good ,FALSE,not employed
+5000000,38,service,3,2,1000000,6000000,0,0,TRUE,home,good ,TRUE,
+700000,30,service,3,1,100000,7000000,0,0,TRUE,home,good ,TRUE,home ownership helping the loan
+1200000,48,service,5,1,300000,1000000,0,0,TRUE,education,good ,TRUE,education loan
+0,18,not_employed,5,1,50000,1000000,0,0,FALSE,education,not_available,FALSE,education loan applied by student
