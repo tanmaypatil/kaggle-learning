@@ -195,3 +195,18 @@ def split_and_createnewcol(df):
     # drop the original column PassengerId and Cabin .
     # also drop name , does not have significance
     df.drop( ["Cabin", "Name", "PassengerId"], axis = 1 ,inplace=True)
+    
+def find_cat_num_features(df):
+    """
+    seperates out categorical and numerical features 
+    Args:
+        df (pandas.DataFrame): The input DataFrame
+    Returns :
+        numerical_features ( list)
+        categorical_features (list)
+    """
+    numerical_features = df.select_dtypes(include=['float64','int32','int64']).columns
+    print(f"numerical features {numerical_features}")
+    categorical_features = df.select_dtypes(include=['object']).columns
+    print(f"categorical features {categorical_features}")
+    return ( numerical_features , categorical_features)
